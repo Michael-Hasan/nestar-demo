@@ -1,5 +1,5 @@
-import { Stack } from "@mui/material";
 import Head from "next/head";
+import { Stack } from "@mui/material";
 import Top from "../Top";
 import Footer from "../Footer";
 
@@ -10,7 +10,6 @@ const withLayoutBasic = (Component: any) => {
         <Head>
           <title>Nestar</title>
         </Head>
-
         <Stack id="pc-wrap">
           <Stack id={"top"}>
             <Top />
@@ -24,7 +23,7 @@ const withLayoutBasic = (Component: any) => {
               boxShadow: "inset 10px 40px 150px 40px rgb(24 22 36)",
             }}
           >
-            <Stack className={"container"}>
+            <Stack className="container">
               <strong>Search</strong>
               <span>We are glad to see you again!</span>
             </Stack>
